@@ -39,6 +39,8 @@ Feel free to reach out for implementation assistance or integration support.
 - [Contributing](#contributing)
 - [License](#license)
 
+
+<a id="overview"></a>
 ## 🎯 Overview
 
 Cronos x402 Paytech is a production-ready application that enables AI agents to autonomously trigger and execute payments on the Cronos blockchain using the x402 protocol. The system provides programmable payment rails with support for:
@@ -51,6 +53,7 @@ Cronos x402 Paytech is a production-ready application that enables AI agents to 
 
 This project was built for the [Cronos x402 Paytech] and demonstrates integration with Cronos EVM, x402 facilitator, and Crypto.com AI Agent SDK.
 
+<a id="features"></a>
 ## ✨ Features
 
 ### Core Functionality
@@ -83,6 +86,7 @@ This project was built for the [Cronos x402 Paytech] and demonstrates integratio
 - Emergency withdrawal functions
 - Comprehensive test coverage
 
+<a id="architecture"></a>
 ## 🏗️ Architecture
 
 ### System Components
@@ -127,6 +131,7 @@ This project was built for the [Cronos x402 Paytech] and demonstrates integratio
    - Conditional payment logic
    - Multi-step settlement workflows
 
+<a id="getting-started"></a>
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -196,6 +201,7 @@ npm run dev
 
 Visit `http://localhost:3000` to access the application.
 
+<a id="smart-contracts"></a>
 ## 📜 Smart Contracts
 
 ### X402PaymentFacilitator
@@ -236,6 +242,7 @@ Manages advanced payment workflows.
 - `createConditionalPayment(recipient, token, amount, conditionHash)`: Create conditional payment
 - `executeConditionalPayment(conditionId, conditionProof)`: Execute if condition met
 
+<a id="frontend-application"></a>
 ## 🎨 Frontend Application
 
 ### Tech Stack
@@ -267,6 +274,7 @@ npm run build
 npm start
 ```
 
+<a id="deployment"></a>
 ## 🚢 Deployment
 
 ### Deploy Smart Contracts
@@ -305,6 +313,7 @@ vercel
 
 Make sure to set environment variables in your hosting platform.
 
+<a id="api-reference"></a>
 ## 📚 API Reference
 
 ### AI Agent SDK Integration
@@ -337,6 +346,7 @@ const txHash = await agent.executePayment(requestId)
 - `POST /api/agent/execute`: Execute payment via AI agent
 - `GET /api/agent/status/[requestId]`: Get payment status
 
+<a id="testing"></a>
 ## 🧪 Testing
 
 ### Run Tests
@@ -363,6 +373,7 @@ The test suite covers:
 - Error handling and edge cases
 - Reentrancy protection
 
+<a id="contributing"></a>
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
@@ -403,6 +414,7 @@ Contributions are welcome! Please follow these steps:
 - ✅ **Functional Prototype**: Complete frontend and backend implementation
 - ✅ **Testnet Deployment**: Ready for Cronos Testnet deployment
 
+<a id="license"></a>
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
