@@ -1,0 +1,57 @@
+{
+  "name": "cronos-x402-paytech",
+  "version": "1.0.0",
+  "description": "AI-native payment application leveraging x402 protocol on Cronos EVM",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:testnet": "hardhat run scripts/deploy.js --network cronosTestnet",
+    "deploy:mainnet": "hardhat run scripts/deploy.js --network cronosMainnet",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@crypto-org-chain/cronosjs": "^2.0.0",
+    "@cronos-labs/cronos-x402-facilitator": "^1.0.0",
+    "ethers": "^6.8.0",
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "wagmi": "^2.0.0",
+    "@tanstack/react-query": "^5.0.0",
+    "viem": "^2.0.0",
+    "@rainbow-me/rainbowkit": "^1.0.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "hardhat": "^2.19.0",
+    "typescript": "^5.3.0",
+    "eslint": "^8.50.0",
+    "eslint-config-next": "^14.0.0",
+    "dotenv": "^16.3.0",
+    "chai": "^4.3.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0"
+  },
+  "keywords": [
+    "cronos",
+    "x402",
+    "blockchain",
+    "ai",
+    "payments",
+    "ethereum",
+    "smart-contracts"
+  ],
+  "author": "NovusTechLLC",
+  "license": "MIT"
+}
+
