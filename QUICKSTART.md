@@ -13,7 +13,7 @@ Get up and running with Cronos x402 Paytech in 5 minutes!
 
 ```bash
 # Clone the repository
-git clone https://github.com/NovusTechLLC/Cronos-x402-Paytech.git
+git clone https://github.com/Novus-Tech-LLC/Cronos-x402-Paytech.git
 cd Cronos-x402-Paytech
 
 # Install dependencies
@@ -128,7 +128,7 @@ npm run dev
 
 - 📖 Read the [full README](README.md)
 - 💬 Join [Cronos Discord](https://discord.com/channels/783264383978569728/1442807140103487610)
-- 🐛 Open an [issue on GitHub](https://github.com/NovusTechLLC/Cronos-x402-Paytech/issues)
+- 🐛 Open an [issue on GitHub](https://github.com/Novus-Tech-LLC/Cronos-x402-Paytech/issues)
 
 ## What's Next?
 

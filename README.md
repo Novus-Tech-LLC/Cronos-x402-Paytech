@@ -147,7 +147,7 @@ This project was built for the [Cronos x402 Paytech] and demonstrates integratio
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/NovusTechLLC/Cronos-x402-Paytech.git
+git clone https://github.com/Novus-Tech-LLC/Cronos-x402-Paytech.git
 cd Cronos-x402-Paytech
 ```
 
@@ -427,7 +427,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- **Repository**: [GitHub](https://github.com/NovusTechLLC/Cronos-x402-Paytech)
+- **Repository**: [GitHub](https://github.com/Novus-Tech-LLC/Cronos-x402-Paytech)
 - **Documentation**: [This README]
 
 ---
